@@ -1,0 +1,526 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Oswald:wght@200..700&family=Playwrite+AU+NSW:wght@100..400&family=Playwrite+BR:wght@100..400&family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: solid black;
+    background-color: rgb(255, 219, 165);
+    font-family: "Oswald", sans-serif;
+}
+
+p {
+    color: solid black;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    margin: 5vh;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+/* Header Section */
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(57, 90, 105);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 30px;
+    font-size: x-large;
+}
+
+nav ul li a {
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+    color: rgb(255, 2, 200);
+    font-size: 23px;
+}
+
+.leftcorner {
+    color: rgb(57, 245, 245);
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+#firstheader-nav {
+    height: 12vh;
+}
+
+/* First Section */
+
+.myname {
+    font-size: 50px;
+    font-weight: bolder;
+    color: orange;
+    text-shadow: 3px 1px 7px #dd4d38;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin: 5vh 0px;
+}
+
+.firstsection div {
+    width: 40%;
+}
+
+.leftsection_first {
+    margin: 40px 0px;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.rightsection_first img {
+    width: 26vw;
+    height: 55vh;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.icon1 {
+    cursor: pointer;
+    width: 16%;
+    margin: 8px;
+    height: 2rem;
+}
+
+.firstsection-button {
+    margin: 2vh 12vw;
+}
+
+.btn-resume,
+.btn-Contact {
+    width: 94px;
+    height: 42px;
+    font-weight: bold;
+    border-color: #62edff;
+    border-radius: 2rem;
+    color: rgb(221, 60, 60);
+}
+
+.btn-resume:hover,
+.btn-Contact:hover {
+    background-color: rgb(125, 255, 147);
+    cursor: pointer;
+}
+
+#random {
+    color: #0f0ce9;
+}
+
+#social-page {
+    display: flex;
+    justify-content: center;
+    margin: 0px 12vw;
+}
+
+/* About Section */
+
+.secondsection {
+    max-width: 75vw;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin: 5vh 12vw;
+}
+
+.about {
+    text-align: center;
+    color: #ff8100;
+    font-size: xx-large;
+}
+
+.rightsection_second {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.about-details {
+    gap: 3rem;
+    margin: 2rem 0rem;
+    display: flex;
+}
+
+.leftection_second {
+    height: 40vh;
+    width: 40vw;
+}
+
+.Experience-Details {
+    padding: 1.5rem;
+    flex: 1;
+    background: #a9ffcc;
+    border-radius: 1.6rem;
+    border: 4px solid;
+    border-color: #06eb26;
+    box-shadow: 1px 2px 5px 3px #ff725d;
+    text-align: center;
+}
+
+.icon2 {
+    cursor: default;
+    width: 25%;
+    margin: 8px;
+    height: 2rem;
+}
+
+.about-picture {
+    border-radius: 2rem;
+    width: 440px;
+    height: 400px;
+    margin: 20px 0px;
+}
+
+.details_paragraph {
+    font-weight: 550;
+}
+
+/* Experience Section */
+
+.thirdsection-first {
+    display: flex;
+    margin: 5vh 14vw;
+}
+
+.thirdsection-second {
+    display: flex;
+    margin: 6vh 6vw;
+}
+
+.sub-box img {
+    width: 8vw;
+    height: 10vh;
+}
+
+.sub-box p {
+    text-align: center;
+}
+
+.PLF {
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgb(0, 145, 255);
+}
+
+
+
+
+/*Project Section */
+
+.project-row-first {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3rem;
+    margin: 5vh 0vw;
+}
+
+.project-row-second {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.project-container {
+    width: 23%;
+    height: 50vh;
+    border: 2px solid black;
+    border-radius: 12%;
+    background-color: rgb(255, 219, 165);
+}
+
+.project-title {
+    text-decoration: underline;
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 2vh;
+    margin-left: 6vw;
+    color: #cd1919e8;
+}
+
+.project-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 2vh;
+}
+
+.btn-project {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 3vh;
+}
+
+.btn-project button {
+    width: 9vw;
+    height: 7vh;
+    border-radius: 20px;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: #87CEFA;
+    color: #0b38c7;
+}
+
+.btn-project button:hover {
+    cursor: pointer;
+    background-color: #2df0d0;
+}
+
+#fb,
+#PGG,
+#NI,
+#calc,
+#SPS {
+    width: 15vw;
+    height: 28vh;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+#hidden-text-fb,
+#hidden-text-PGG,
+#hidden-text-NI,
+#hidden-text-calc,
+#hidden-text-SPS {
+    display: none;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 25px;
+}
+
+/* Contact Section */
+
+.contact-container-user {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 8vh 25vw 3vh 25vw;
+    gap: 1rem;
+}
+
+.Name-input {
+    display: flex;
+    gap: 2rem;
+}
+
+#first-name,
+#last-name {
+    width: 20vw;
+    height: 6vh;
+}
+
+#email,
+#phone {
+    width: 43vw;
+    height: 6vh;
+}
+
+#comment {
+    width: 43vw;
+    height: 10vh;
+}
+
+.contact-container-user p {
+    font-size: larger;
+    font-family: serif;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+input {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 800;
+    outline: 1px solid black;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:hover {
+    background-color: #f8b84bc8;
+}
+
+.send-btn {
+    margin-left: 31vw;
+    outline: none;
+}
+
+#send:hover {
+    cursor: pointer;
+    color: #2a80f7;
+    background-color: rgb(235, 255, 82);
+    filter: invert(0.1);
+}
+
+.send-btn button {
+    width: 12vw;
+    height: 8vh;
+    font-size: larger;
+    font-family: serif;
+    font-weight: 600;
+}
+
+.contact-container-me {
+    display: flex;
+    margin: 0rem 36rem;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.icon4 {
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+}
+
+/* Footer Section */
+
+footer {
+    height: 6vh;
+    margin: 0rem 1rem;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+/* Responsive Design */
+
+/* Devices with width of 920px or less :Surface Pro 7 */
+@media only screen and (max-width: 920px) {
+    .myname {
+        font-size: 40px;
+    }
+    .firstsection {
+        flex-direction: column;
+        gap: 4rem;
+    }
+    .rightsection_first img {
+        width: 50%;
+    }
+    .secondsection {
+        flex-direction: column;
+        gap: 5rem;
+    }
+    .about-picture {
+        width: 350px;
+        height: 300px;
+    }
+}
+
+/* Devices with width of 768px or less : Ipad mini */
+@media only screen and (max-width: 768px) {
+    .myname {
+        font-size: 35px;
+    }
+    .firstsection div {
+        width: 90%;
+    }
+    .rightsection_first img {
+        width: 40vw;
+    }
+    .btn-resume, .btn-Contact {
+        width: 80px;
+        height: 36px;
+    }
+    .secondsection {
+        gap: 3rem;
+    }
+    .Experience-Details {
+        padding: 1rem;
+    }
+    .project-container {
+        width: 80%;
+    }
+}
+
+/* Devices with width of 580px or less : Blackberry Playbook */
+@media only screen and (max-width: 580px) {
+    nav ul li {
+        margin: 0px 10px;
+    }
+    .leftcorner {
+        font-size: 28px;
+    }
+    .myname {
+        font-size: 30px;
+    }
+    .firstsection {
+        margin: 3vh 0px;
+        gap: 3rem;
+    }
+    .rightsection_first img {
+        width: 50%;
+        height: auto;
+    }
+    .btn-resume, .btn-Contact {
+        width: 70px;
+        height: 32px;
+    }
+    .project-container {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Devices with width of 430px or less : Iphone 14pro max */  
+@media only screen and (max-width: 435px) {
+    nav ul li {
+        margin: 0px 5px;
+    }
+    .leftcorner {
+        font-size: 24px;
+    }
+    .myname {
+        font-size: 25px;
+    }
+    .firstsection div {
+        width: 100%;
+    }
+    .rightsection_first img {
+        width: 70%;
+    }
+    .secondsection {
+        margin: 2vh 5vw;
+    }
+    .project-container {
+        width: 100%;
+        height: auto;
+    }
+    .btn-resume, .btn-Contact {
+        width: 60px;
+        height: 30px;
+    }
+}
