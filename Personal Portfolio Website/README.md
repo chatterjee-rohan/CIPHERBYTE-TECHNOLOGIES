@@ -16,7 +16,7 @@ Welcome to the repository for my personal portfolio website. This website is bui
 This portfolio website includes several sections:
 - **About Me**: An introduction to who I am, including my academic background and interests.
 - **Skills**: A list of my technical and professional skills.
-- **Projects**: A showcase of my projects (to be updated soon).
+- **Projects**: A showcase of my projects.
 - **Contact Me**: Information on how to reach me.
 
 ## Features
