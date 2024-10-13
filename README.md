@@ -9,6 +9,7 @@ This repository contains my submissions for the web development internship. It i
   - **Technologies Used**: HTML, CSS, JavaScript
   
 - **Task 2: BlogSphere : A Blog Website**
+  - BlogSphere is an interactive blogging platform designed to help users create, customize, and manage beautiful and unique blogs with ease. This project offers a modern, user-friendly interface with dynamic content and a responsive design, suitable for writers, podcasters, and video creators.
   - **Technologies Used**: HTML, CSS, JavaScript
 
 ## Contact
