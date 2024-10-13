@@ -1,0 +1,240 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(101, 101, 101);
+    width: 40%;
+    height: 95vh;
+    margin-left: 30vw;
+    margin-top: 3vh;
+    box-shadow: 0px 0px 10px 1px;
+    border: none;
+    border-radius: 6px;
+    gap: 2rem;
+}
+
+.right-corner-icon {
+    display: flex;
+    height: 7vh;
+    align-items: center;
+    margin-left: 35vw;
+}
+
+.right-corner-icon img {
+    width: 20px;
+    height: 20px;
+    opacity: 0.7;
+}
+
+.right-corner-icon img:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.Wb .heading {
+    font-family: "Playfair Display", serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    font-style: normal;
+    margin-bottom: 5vh;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.btn {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    align-items: center;
+    width: 20vw;
+    height: 5vh;
+    cursor: pointer;
+}
+
+.btn img {
+    margin-left: 3px;
+}
+
+.btn-container .btn p {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+#G,
+#E {
+    margin-left: 4vw;
+}
+
+#F {
+    margin-left: 47px;
+}
+
+.create {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8vh;
+}
+
+.create a {
+    color: green;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.create a:hover {
+    cursor: pointer;
+    filter: invert(.3);
+}
+
+.si {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Nunito", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(101, 101, 101);
+}
+
+.si u {
+    cursor: pointer;
+}
+
+/* Media query for 1024px width */
+@media (max-width: 1024px) {
+    .container {
+        width: 50%;
+        margin-left: 25vw;
+    }
+
+    .btn {
+        width: 25vw;
+    }
+
+    .btn-container .btn p {
+        font-size: 14px;
+    }
+
+    .Wb .heading {
+        font-size: 22px;
+    }
+}
+
+/* Media query for 920px width */
+@media (max-width: 920px) {
+    .container {
+        width: 60%;
+        margin-left: 20vw;
+    }
+
+    .btn {
+        width: 30vw;
+    }
+
+    .btn-container .btn p {
+        font-size: 14px;
+    }
+
+    .Wb .heading {
+        font-size: 20px;
+    }
+}
+
+/* Media query for 768px width */
+@media (max-width: 768px) {
+    .container {
+        width: 70%;
+        margin-left: 15vw;
+    }
+
+    .btn {
+        width: 35vw;
+    }
+
+    .btn-container .btn p {
+        font-size: 14px;
+    }
+
+    .Wb .heading {
+        font-size: 18px;
+    }
+}
+
+/* Media query for 530px width */
+@media (max-width: 530px) {
+    .container {
+        width: 80%;
+        margin-left: 10vw;
+    }
+
+    .btn {
+        width: 40vw;
+    }
+
+    .btn-container .btn p {
+        font-size: 12px;
+    }
+
+    .Wb .heading {
+        font-size: 16px;
+    }
+
+    #F {
+        margin-left: 35px;
+    }
+}
+
+/* Media query for 410px width */
+@media (max-width: 410px) {
+    .container {
+        width: 90%;
+        margin-left: 5vw;
+    }
+
+    .btn {
+        width: 45vw;
+    }
+
+    .btn-container .btn p {
+        font-size: 12px;
+    }
+
+    .Wb .heading {
+        font-size: 14px;
+    }
+
+    #F {
+        margin-left: 25px;
+    }
+
+    .create {
+        font-size: 14px;
+    }
+
+    .si {
+        font-size: 10px;
+    }
+}
