@@ -28,7 +28,7 @@ To get started with BlogSphere:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/BlogSphere.git
+   git clone (https://github.com/chatterjee-rohan/CBT-CIP/tree/6550ea63245758ac1cc22e14eb221781764fa084/BlogSphere%20%3A%20Blog%20Platform)
 2. Open `index.html` in your browser to explore the platform.
 
 ## Future Enhancements
